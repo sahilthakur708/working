@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "VIShayari",
+    "slug": "android",
+    "version": "2.0.4",
+      "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./Images/Main_Icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./Images/Main_Icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./Images/Main_Icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Shayari_App.Developer"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "69602c83-a376-41a9-9bc6-c22bb6c3df85"
+      }
+    }
+  }
+}
